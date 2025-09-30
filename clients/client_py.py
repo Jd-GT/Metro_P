@@ -4,7 +4,7 @@ from tkinter import ttk
 
 def parse_args():
     p = argparse.ArgumentParser()
-    p.add_argument("--host", default="127.0.0.1")
+    p.add_argument("--host", default="23.20.241.75")
     p.add_argument("--port", type=int, default=5000)
     p.add_argument("--admin-token", default=None)  # opcional, por si luego activas roles
     return p.parse_args()
